@@ -1,0 +1,126 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+
+body{
+    background-color:#3a3d47;
+}
+
+.contenedor{
+background-color:white;
+margin:5px auto 100px auto;
+width: 1300px;
+}
+header{
+    background-color: #1551a1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    display:block;
+    background-color: #1551a1;
+    height: 30px;
+    width: 100px;
+   
+}
+
+#nav a:hover{
+    background-color: #094797;
+    cursor: pointer;
+    margin: 1.2px;
+}
+
+#nav{
+    margin-left: 26%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.titulo{
+  text-align: center;
+color: #ff7600;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+   
+}
+
+
+.contenido-1{
+    border: 1px solid black;
+}
+
+.contenido-2{
+    border: 1px solid black;
+}
+
+.contenido-3{
+    border: 1px solid black;  
+}
+
+.contenido h2{
+    color: white;
+}
+
+.contenido button{
+    background-color: #1551a1;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+
+.contenido-1 h2{
+    background-color:#1551a1; 
+}
+
+.contenido-2 h2{
+    background-color:#1551a1;
+}
+
+.contenido-3 h2{
+    background-color:#1551a1;
+}
+
+
+footer{
+    background-color: #062348;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+footer p{
+    display: block;
+}
+
+.final{
+    width: 50vh;
+    height: 15vh;
+}
+
+
+
+
